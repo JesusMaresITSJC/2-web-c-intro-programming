@@ -19,12 +19,75 @@
     </div>
     <hr>
     <div class="plataformas">
-        <h2><a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a></h2>
-        <img src="Img_PF\htb.png" alt="">
-        <p>
-            ...
-        </p>
+        <div class="htb">
+            <h2><a href="https://www.hackthebox.com/" target="_blank">Hack The Box</a></h2>
+            <img src="https://d7umqicpi7263.cloudfront.net/img/product/e6d9c523-081b-448e-8bdd-3b8d1766be0b.com/fd2fa7eb687158ecf39da59a28b6e7eb" alt="" width="200px" height="150px">
+            <p>
+            Hack The Box (HTB) es una plataforma de aprendizaje en línea para ciberseguridad, especializada en hacking ético. Se dirige tanto a principiantes que desean entrar en el campo como a profesionales experimentados que quieren perfeccionar sus habilidades. 
+            La plataforma ofrece una experiencia práctica y gamificada para desarrollar habilidades de seguridad ofensiva y defensiva a través de varios tipos de retos.
+            </p>
+        </div>
+        <div class="otw">
+            <h2><a href="https://overthewire.org/wargames/bandit/" target="_blank">OverTheWire</a></h2>
+            <img src="https://miro.medium.com/1*qO7TM0hqCq9UjfHghAxyiA.jpeg" alt="" width="200px" height="150px">
+            <p>
+            OverTheWire es una plataforma gratuita en línea que ofrece una serie de "juegos de guerra" o desafíos de seguridad interactivos, 
+            diseñados para ayudar a las personas a aprender y practicar conceptos de ciberseguridad. Es un recurso ideal para principiantes que buscan mejorar sus habilidades de línea de comandos de Linux y familiarizarse con el hacking ético.
+            </p>
+        </div>
+        <div class="thm">
+            <h2><a href="https://tryhackme.com/" target="_blank">TryHackMe</a></h2>
+            <img src="https://www.student-circuit.com/wp-content/uploads/sites/54/2019/03/THMlogo.png" alt="" width="200px" height="150px">
+            <p>
+            TryHackMe es unaPlataforma de formación en ciberseguridad basada en navegadorOfrece aprendizaje práctico y gamificado para todos los niveles. 
+            Es ampliamente reconocida como una plataforma ideal para principiantes que ayuda a los usuarios a adquirir experiencia práctica en seguridad ofensiva y defensiva mediante máquinas virtuales y rutas de aprendizaje guiadas.
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div id="Contactanos" class="form-container">
+        <h3>Contactanos:</h2>
+        <form action="">
+            <div>
+            <label for="fname">Nombre*</label>
+            <input type="text" name="fname" id="fname" />
+            </div>
 
+            <div>
+            <label for="lname">Apellidos*</label>
+            <input type="text" name="lname" id="lname" />
+            </div>
+
+            <div>
+            <label for="email">Email*</label>
+            <input type="email" name="email" id="email" />
+            </div>
+
+            <div>
+            <p>Area de Consulta:*</p>
+
+            <div>
+                <input type="radio" name="query_type" id="general" />
+                <label for="support">Suporte Tecnico</label>
+            </div>
+
+            <div>
+                <input type="radio" name="query_type" id="support" />
+                <label for="moreinf">Mas Informacion</label>
+            </div>
+            </div>
+
+            <div>
+            <label for="message">Mensaje*</label><br>
+            <textarea name="message" id="message" rows="4" cols="50"></textarea>
+            </div>
+
+            <div>
+            <input type="checkbox" name="consent" id="consent" value="true" />
+            <label for="consent">Doy mi consentimiento para que el equipo se ponga en contacto conmigo.*</label>
+            </div>
+            <input type="submit" value="submit" />
+        </form>
     </div>
 </body>
 </html>
